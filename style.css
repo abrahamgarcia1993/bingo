@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.bingo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:16px;
+}
+
+.persona, .bot{
+    display: flex;
+
+    flex-wrap: wrap;
+    border:1px solid rgb(36, 143, 243)
+
+}
+
+p{
+    width: 25%;
+    font-size: 40px;
+    text-align: center;
+}
+button{
+    width: fit-content;
+    border: 0;
+    background-color:rgb(36, 143, 243) ;
+    color: white;
+    padding: 10px;
+    border-radius:12px;
+    font-size: 24px;
+}
+.tachado{
+    text-decoration: line-through;
+}

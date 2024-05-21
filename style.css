@@ -15,6 +15,7 @@ body{
 .bingo{
     width: 100%;
     display: flex;
+
     justify-content: center;
     gap:16px;
 }
@@ -43,4 +44,5 @@ button{
 }
 .tachado{
     text-decoration: line-through;
+    color: green;
 }
